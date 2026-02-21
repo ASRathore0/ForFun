@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-script: "Dancing Script", cursive;
+  
+  --color-romantic-pink: #ffd1dc;
+  --color-romantic-dark: #8b4b59;
+  --color-romantic-gold: #d4af37;
+}
+
+body {
+  background-color: #fff0f5; /* Lavender Blush */
+  color: #4a4a4a;
+  overflow-x: hidden;
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 10px rgba(255, 209, 220, 0.8), 0 0 20px rgba(212, 175, 55, 0.4);
+}
